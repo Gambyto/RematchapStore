@@ -29,11 +29,24 @@ body{
    font-size: .8rem;
 }
 
+.brand{
+    max-width: 700px;
+    padding-top: 30%;
+}
+
 .branding{
     filter: drop-shadow(60px 30px 100px  rgba(0, 0, 0, 0.5));
 }
 
+.cup{
+    position: relative;
+    top: -200px;
+    filter: drop-shadow(0 0 50px  rgba(0, 0, 0, 0.5));
+}
+
 .section-home{
+    margin-top: 7%;
+    height: 75vh;
     display: flex;
     align-items: center;
     justify-content: center;
